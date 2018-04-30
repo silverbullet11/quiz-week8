@@ -24,9 +24,6 @@ Huang et al. (https://arxiv.org/abs/1611.10012)
 
 import tensorflow as tf
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/slim")
 from object_detection.meta_architectures import faster_rcnn_meta_arch
 from nets import inception_resnet_v2
 
