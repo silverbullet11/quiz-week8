@@ -6,10 +6,6 @@ import tensorflow as tf
 from matplotlib import pyplot as plt
 from PIL import Image
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/slim")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/object_detection")
 from utils import visualization_utils as vis_util
 from utils import label_map_util
 
