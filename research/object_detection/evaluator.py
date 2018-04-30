@@ -21,8 +21,7 @@ DetectionModel.
 import logging
 import tensorflow as tf
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
+
 from object_detection import eval_util
 from object_detection.core import prefetcher
 from object_detection.core import standard_fields as fields
