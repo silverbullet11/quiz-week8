@@ -47,8 +47,6 @@ import functools
 import os
 import tensorflow as tf
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
 from object_detection import evaluator
 from object_detection.builders import input_reader_builder
 from object_detection.builders import model_builder
