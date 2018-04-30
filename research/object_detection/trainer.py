@@ -23,9 +23,6 @@ import functools
 
 import tensorflow as tf
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/slim")
 from object_detection.builders import optimizer_builder
 from object_detection.builders import preprocessor_builder
 from object_detection.core import batcher
