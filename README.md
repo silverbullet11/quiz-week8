@@ -1,3 +1,11 @@
+心得体会:
+1. 按照作业要求先在本地创建训练所需要的文件，修改代码和配置文件，然后通过不同的方式去执行训练、验证、输出。最后在tinymind上进行调试，更新参数和文件夹结构。在进行了这些操作之后对object_detection还是不了解，只知道如何利用当前的环境训练数据并输出结果。下面需要自己动手实现整个流程。
+
+2. Tinymind的数据集功能有点坑啊，自己创建的数据集老是引用不成功，而且更新数据源的时候总是提示我数据集无法识别...最后把数据文件统一上传到github才把模型跑通...
+
+
+
+Codes are based on TensorFlow Models:
 # TensorFlow Models
 
 This repository contains a number of different models implemented in [TensorFlow](https://www.tensorflow.org):
