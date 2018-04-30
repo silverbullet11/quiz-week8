@@ -68,9 +68,7 @@ with contents:
 """
 import tensorflow as tf
 from google.protobuf import text_format
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/slim")
+
 from object_detection import exporter
 from object_detection.protos import pipeline_pb2
 
