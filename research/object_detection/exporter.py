@@ -26,10 +26,6 @@ from tensorflow.python.platform import gfile
 from tensorflow.python.saved_model import signature_constants
 from tensorflow.python.training import saver as saver_lib
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/slim")
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research/object_detection")
 from object_detection.builders import model_builder
 from object_detection.core import standard_fields as fields
 from object_detection.data_decoders import tf_example_decoder
