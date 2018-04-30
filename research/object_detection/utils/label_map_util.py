@@ -20,8 +20,6 @@ import logging
 import tensorflow as tf
 from google.protobuf import text_format
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
 from object_detection.protos import string_int_label_map_pb2
 
 
