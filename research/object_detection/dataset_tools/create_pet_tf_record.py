@@ -38,9 +38,6 @@ import numpy as np
 import PIL.Image
 import tensorflow as tf
 
-import sys
-sys.path.insert(0, "/home/alvin/workspace/week8/models-r1.5/research")
-
 from object_detection.utils import dataset_util
 from object_detection.utils import label_map_util
 
